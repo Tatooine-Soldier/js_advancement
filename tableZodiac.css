@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: yellow;
+    font-size: 24px;
+}
+
+header {
+    margin-left: 35%;
+}
+
+main {
+margin-left: 35%;
+}
+/* 
+table {
+    border: yellow solid 5px;
+} */
+
+#ask {
+    padding-left: 60px;
+}
+
+table tr th, td{
+    border: yellow solid 2px;
+    padding: 15px;
+}
+
+#table_container {
+    visibility: hidden;
+    padding: 40px;
+}
