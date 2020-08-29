@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Login</title>
+        <link rel=stylesheet href='username.css'>
+        <!-- <script src="username.js" type="module"></script> -->
+    </head>
+    <body id="body">
+        <section id="ask">
+            <p>LOGIN</p>
+            <input type="text" id="fname" name="fname" placeholder="First name"/>
+            <input type="text" id="lname" name="lname" placeholder="Password"/>
+            <input type="submit" onclick="access()"/>
+            <span id='error'></span>
+        </section>
+
+        <section id="actual">
+            <header>
+                <h1 id="welcome"></h1>
+            </header>
+            <main>
+
+                <section id="name_container">
+                    <span id="name"></span>
+
+                </section>
+
+                <section id="factfile_container">
+                    <table id="factfile">
+                        <caption>Factfile</caption>
+                        <tr><th>Name</th><td>Tom</td></tr>
+                        <tr><th>Age</th><td>19</td></tr>
+                        <tr><th>Height</th><td>5'10"</td></tr>
+                        <tr><th>Weight</th><td>10.1st</td></tr>
+                        <tr><th>Race</th><td>Caucasian</td></tr>
+                        <tr><th>Eye</th><td>Blue</td></tr>
+                        <tr><th>Hair</th><td>Brown</td></tr>
+                    </table>
+                </section>
+
+                <section id="button_container">
+                    <input type="button" id="dbutton" value="BACK" onclick="goBack()"/>
+                </section>
+
+            </main>
+        </section>
+
+    </body>
+    
